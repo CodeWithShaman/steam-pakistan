@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <script src="project.js"></script>
+</head>
+
+<body>
+    <p id="top"></p>
+    <div class="login">
+        <ul class="plz">
+            <a href="#">
+                <li><img src="	https://www.steampakistan.com/icons/journey.png" alt="im">
+                    School Journey
+            </a></li>
+        </ul>
+        <ul class="plz">
+            <li><a href="#">
+                    <img src="https://www.steampakistan.com/icons/navicons-faqs.png" alt="im">
+                    FAQs</a></li>
+        </ul>
+        <ul class="plz">
+            <li><a href="#">
+                    <img src="https://www.steampakistan.com/icons/navicons-resources.png" alt="im">
+                    Resources</a></li>
+        </ul>
+        <ul class="plz">
+            <li><a href="#">
+                    <img src="	https://www.steampakistan.com/icons/navicons-register.png" alt="im">
+                    Register</a></li>
+        </ul>
+        <ul class="plz">
+            <li><a href="#">
+                    <img src="	https://www.steampakistan.com/icons/navicons-login.png" alt="im">
+                    Login</a></li>
+        </ul>
+        <!-- <img class="e" src="https://www.steampakistan.com/icons/journey.png" alt="bb" height="15px"> -->
+
+    </div>
+    <div class="header">
+        <nav>
+            <div class="logo"><img src="https://www.steampakistan.com/images/logo-web-large.png" alt="ss"></div>
+            <div class="sidebar closed">
+                <a href="#">Home</a>
+                <a href="#abo">About</a>
+                <a href="#tut">Tutorials</a>
+                <a href="#">Pedagogy</a>
+                <a href="#">Guides</a>
+                <a href="#manu">Manuals</a>
+                <a href="#cont">Contact</a>
+            </div>
+
+            <div class="toggle-button" id="toggle-button"></div>
+            <script>// Add toggle button functionality
+                const toggleButton = document.getElementById('toggle-button');
+                const sidebar = document.querySelector('.sidebar');
+
+                toggleButton.addEventListener('click', () => {
+                    sidebar.classList.toggle('closed');
+                    toggleButton.classList.toggle('closed');
+                    if (sidebar.classList.contains('closed')) {
+                        toggleButton.style.right = '200px';
+                    } else {
+                        toggleButton.style.right = '240px';
+                    }
+                });
+            </script>
+            <ul class="navbar-2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#abo">About</a></li>
+                <li><a href="#tut">Tutorials</a></li>
+                <li><a href="#">Pedagogy</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#manu">Manuals</a></li>
+                <li><a href="#cont">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="image"></div>
+    <!-- <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img id="im" src="Screenshot 2024-02-12 140945.png" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img id="im" src="../Screenshot 2024-02-22 175621.png" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div> -->
+
+    <!-- <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img id="im" src="../Screenshot 2024-02-22 175829.png" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br> -->
+
+    <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> -->
+    <!-- <marquee> -->
+    <!-- <div class="main">
+        <div class="im"><img src="./" alt=""></div>
+         <div class="im"><img src="./20744323109_20d44ef4d0_b.jpg" alt=""></div> -->
+    <!-- <div class="im"><img src="./3063220244_febaf28d96_b.jpg" alt=""></div> -->
+    <div class="heading">
+        <p id="abo">About Our Program _____</p>
+    </div>
+    <p id="sky">STEAM Pakistan is an initiative of the Ministry of Federal Education and Professional Training (MoFEPT)
+        that aims to advance secondary school-aged girls’ access to Science, Technology, Engineering, Arts, and
+        Mathematics education in Pakistan <br> EAM Pakistan is an initiative of the Ministry of Federal Education and
+        Professional Training (MoFEPT)
+        that aims to advance secondary school-aged girls’ access to Science, Technology, Engineering, Arts, and
+        Mathematics education in Pakistan.</p>
+    <p id="sky">The goal of this initiative is to equip and empower government schools to deliver world class STEAM
+        education by
+        offering back-end technical support and working towards policy reforms which embed the initiative’s learning
+        in
+        the existing state structures.</p>
+    <br>
+    <!-- <div class="container-id-2"> -->
+    <h2 class="heading-2" id="tut">How-to Video Tutorials</h2>
+    <div class="container-code">
+        <!-- <h2 class="heading-2">How-to Video Tutorials</h2> -->
+        <div class="item1">
+            <a target="_blank" href="https://youtube.com/watch?v=XRPp-g12NDI"><img class="imgg"
+                    src="https://res.cloudinary.com/stem-media-portal/image/upload/v1691154607/1day_srhhv8.png"></a>
+            <p class="title">One Day STEAM Competition</p>
+            <div class="watch">
+                Watch
+                <span class="che">></span>
+            </div>
+        </div>
+        <div class="item2">
+            <a target="_blank" href="https://youtube.com/embed/6cuiGUK3mds"><img class="imgg"
+                    src="https://res.cloudinary.com/stem-media-portal/image/upload/v1663938680/w6zsufw8gpxje2xebfmj.jpg"></a>
+            <p class="title">STEAM Club</p>
+            <div class="watch">
+                Watch
+                <span class="che">></span>
+            </div>
+        </div>
+        <div class="item3">
+            <a target="_blank" href="https://youtube.com/embed/dgpohq4LIG8"><img class="imgg"
+                    src="	https://res.cloudinary.com/stem-media-portal/image/upload/v1693553166/Reg_sl0sxh.jpg"></a>
+            <p class="title">Student Registration (STEAM Club)</p>
+            <div class="watch">
+                Watch
+                <span class="che">></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- <div class="video">
+                <a target="_blank" href="https://youtube.com/watch?v=XRPp-g12NDI"><img class="imgg"
+                        src="https://res.cloudinary.com/stem-media-portal/image/upload/v1691154607/1day_srhhv8.png"></a>
+                <p class="title">One Day STEAM Competition</p>
+                <div class="watch">
+                    Watch
+                    <span class="che">></span>
+                </div>
+            </div>
+            <div class="video-2">
+                <a target="_blank" href="https://youtube.com/embed/6cuiGUK3mds"><img class="imgg"
+                        src="https://res.cloudinary.com/stem-media-portal/image/upload/v1663938680/w6zsufw8gpxje2xebfmj.jpg"></a>
+                <p class="title">STEAM Club</p>
+                <div class="watch">
+                    Watch
+                    <span class="che">></span>
+                </div>
+            </div>
+            <div class="video-3">
+                <a target="_blank" href="https://youtube.com/embed/dgpohq4LIG8"><img class="imgg"
+                        src="	https://res.cloudinary.com/stem-media-portal/image/upload/v1693553166/Reg_sl0sxh.jpg"></a>
+                <p class="title">Student Registration (STEAM Club)</p>
+                <div class="watch">
+                    Watch
+                    <span class="che">></span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <h2 class="heading-3" id="manu">STEAM Activity Manuals</h2>
+    <div class="container-id">
+        <div class="mein-container">
+            <div class="main-div">
+                <img src="https://res.cloudinary.com/stem-media-portal/image/upload/v1664190381/ahhncmg0xexkcocsusrc.png"
+                    alt="xcc">
+                <p class="pk2">Astronomy <br>Learning <br>Manual</p>
+            </div>
+            <div class="m2">
+                <img src="https://res.cloudinary.com/stem-media-portal/image/upload/v1664190441/xtzxou5lx32jsrwudoas.png"
+                    alt="ssw">
+                <p class="pk">Biology <br>Learning <br>Manual</p>
+            </div>
+            <div class="m3">
+                <img src="	https://res.cloudinary.com/stem-media-portal/image/upload/v1664190519/kftjrawxj6rttxsyd8wq.png"
+                    alt="ssw">
+                <p class="pkg">Chemistry <br>Learning <br>Manual</p>
+            </div>
+        </div>
+    </div>
+    <div class="mein-container-2">
+        <div class="main-div">
+            <img src="https://res.cloudinary.com/stem-media-portal/image/upload/v1664190582/g2itahoii9bdqrwophpa.png"
+                alt="xcc">
+            <p class="pk2">Maths <br>Learning <br>Manual</p>
+        </div>
+        <div class="m2">
+            <img src="	https://res.cloudinary.com/stem-media-portal/image/upload/v1664190625/gjgavyiz0a7opuhabxkw.png"
+                alt="ssw">
+            <p class="pk">Physics <br>Learning <br>Manual</p>
+        </div>
+        <div class="m3">
+            <img src="https://res.cloudinary.com/stem-media-portal/image/upload/v1664190662/tqmfz3qsfltr4fykuwhr.png"
+                alt="ssw">
+            <p class="pkg">Robotics <br>Learning <br>Manual</p>
+        </div>
+    </div>
+    </div>
+    <div class="div"></div>
+
+    <div class="container">
+        <img src="https://www.steampakistan.com/_next/static/media/bg-contact.afe0f20d.jpg" alt="Norway"
+            style="width:100%; height: 790px;">
+        <div class="con">
+            <h2 id="cont">Contact Us ____</h2>
+        </div>
+        <br>
+        <div class="text-block">
+            <form action="/action_page.php" class="input">
+                <label for="username">Full Name </label>
+                <input type="text" id="username" name="username">
+                <br><br>
+                <label for="pwd">Email</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <label for="username">District</label>
+                <input type="password" id="district" name="district">
+                <br><br>
+                <label for="phone">Phone No</label>
+                <input type="text1" id="number" name="number">
+                <br><br>
+                <label for="username">School Name</label>
+                <input type="text2" id="school" name="school">
+                <br><br>
+                <label id="message">Message</label>
+                <input type="textarea" id="text" name="text">
+            </form>
+            <button class="btn" type="submit">Send ></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="logo"><img src="https://www.steampakistan.com/images/logo-web-large.png" alt="ss"></div>
+        <p id="kjan">Supported by: Pak Alliance for Maths and Science</p>
+        <div class=" me">
+            <img src="https://www.steampakistan.com/icons/icon-faceb.png" alt="gg" width="35px" height="29px">
+            <img src="https://www.steampakistan.com/icons/icon-insta.png" alt="ss" width="35px" height="29px">
+            <img src="https://www.steampakistan.com/icons/icon-twitter.png" alt="kk" width="35px" height="29px">
+            <img src="https://www.steampakistan.com/icons/icon-youtube.png" alt="sl" width="35px" height="29px">
+        </div>
+    </footer>
+    <button id="button"><a href="#top"> <img src="https://camo.githubusercontent.com/d77ccecc73e79787f46d57188de6d006055f9f64db5f99bc4c3051e09efa8157/68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3562653039633361363130323930306336643136643939312f62383061356133342d363162362d346536302d623031362d613965653832383436326534" alt="ss" width="50px" height="100px"></a></button>
+</body>
+
+</html>
